@@ -1,32 +1,79 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 h3{
     font-weight: 500;
 }
-h4{
-    font-weight: 400;
+h2{
+    font-weight: 500;
+}
+h1{
+    font-weight: 500;
+    margin: 10px 0;
 }
 
 /* HERO SECTION */
+.hero-section{
+    background-color: #fff3f1;
+    height: 750px;
+    position: relative;
+    margin: 0;
+    padding: 0px;
+}
 
 /* NAVBAR */
 .navbar{
     position: relative;
-    padding: 0 16px 0 16px;
+    padding: 30px 16px 0 32px;
     /* width: 500px; */
+    z-index: 1;
 }
 .nav-link{
     display: inline;
-    
+    margin: 0 32px;
+    z-index: 1
 }
 .navbar-links{
     display: inline;
     position: absolute;
     right: 0px;
-    /* padding: 0 16px 0 0; */
+    padding: 0 64px 0 0;
 
 }
 .logo{
     display: inline;
+}
+
+/* TITLE TEXT */
+.title-text{
+    margin-left: 185px;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+.tt-text{
+    margin-top: 150px;
+}
+.byline{
+    font-size: 1.5rem;
+    margin-left: 185px;
+    margin-top: 75px;
+}
+.lady-image{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}
+.elipse{
+    position: absolute;
+}
+.left{
+    top: 150px;;
+}
+.top{
+    /* position: relative; */
+    transform: rotate(90deg);
+    top: -135px;
+    right: 520px;
+    z-index: 0;
 }
