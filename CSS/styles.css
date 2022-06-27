@@ -7,3 +7,26 @@ h3{
 h4{
     font-weight: 400;
 }
+
+/* HERO SECTION */
+
+/* NAVBAR */
+.navbar{
+    position: relative;
+    padding: 0 16px 0 16px;
+    /* width: 500px; */
+}
+.nav-link{
+    display: inline;
+    
+}
+.navbar-links{
+    display: inline;
+    position: absolute;
+    right: 0px;
+    /* padding: 0 16px 0 0; */
+
+}
+.logo{
+    display: inline;
+}
