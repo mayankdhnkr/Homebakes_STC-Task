@@ -86,9 +86,11 @@ p{
 
 /* FEATURED SECTION */
 .featured{
-    width: auto;
+    /* width: auto; */
     display: inline-block;
-    background-color: red;
+    /* background-color: red; */
+    margin: 100px auto;
+    text-align: left;
 }
 hr{
     border: 0;
@@ -100,6 +102,7 @@ hr{
 }
 .tt-text2{
     margin-left: 100px;
+    display: inline-block;
 }
 .card{
     width: 500px;
@@ -114,18 +117,72 @@ hr{
 .donut{
     height: 455px;
     margin-right: 0;
+    /* display: inline-block; */
 }
 .card-text{
     font-size: 1.4rem;
     font-weight: 500;
     margin: 15px 0;
+    /* display: inline-block; */
 }
 .serve{
     font-size: 1.25rem;
     font-weight: 500;
+    /* display: inline-block; */
 }
 .feature-text{
     font-size: 2rem;
     font-weight: 500;
     display: inline-block;
+}
+.feature-text-light{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.feature-center{
+    text-align: center;
+}
+.corner-image{
+    position: absolute;
+}
+.pastry{
+    right: 740px;
+}
+.donut-img{
+    right: 160px;
+}
+
+/* SNEAKY TRICK */
+.sneaky-trick{
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+}
+.tips{
+    margin: 50px 0 0 50px;
+    width: 50%; 
+    clear: right;
+    float: left;
+}
+.tips-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 5px 0 30px 20px;
+    font-style: italic;
+    clear: right;
+    display: inline-block;
+}
+.sneaky-img{
+    float: right;
+    position: relative;
+    top: 140px;
+    right: 340px;
+}
+.feature-text-light{
+    /* font-size: 1.75rem; */
+    font-weight: 500;
+    clear: right;
+}
+.sneaky-trick-center{
+    text-align: center;
 }
