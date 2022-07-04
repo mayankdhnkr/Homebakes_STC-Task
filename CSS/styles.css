@@ -32,7 +32,7 @@ p{
 /* NAVBAR */
 .navbar{
     position: relative;
-    padding: 30px 16px 0 32px;
+    padding: 30px 16px 30px 32px;
     /* width: 500px; */
     z-index: 1;
 }
@@ -98,7 +98,6 @@ hr{
     border-top: 5px solid #ff8383;
     width: 300px;
     margin: 10px 0 0 50px;
-
 }
 .tt-text2{
     margin-left: 100px;
@@ -157,6 +156,7 @@ hr{
     margin: 0 auto;
     text-align: left;
     display: inline-block;
+    width: 1150px;
 }
 .tips{
     margin: 50px 0 0 50px;
@@ -176,13 +176,60 @@ hr{
     float: right;
     position: relative;
     top: 140px;
-    right: 340px;
+    right: 100px;
+    vertical-align: middle;
 }
-.feature-text-light{
+.tips-text-light{
     /* font-size: 1.75rem; */
     font-weight: 500;
     clear: right;
 }
 .sneaky-trick-center{
+    padding-top: 50px;
+    padding-bottom: 25px;
     text-align: center;
+    background-color: #fff3f1;
+}
+.middle-circle{
+    position: absolute;
+    transform: rotate(180deg);
+    right: 0px;
+    top: 1350px;
+}
+.footer{
+    color: white;
+    background-color: #4b4b4b;
+    /* text-align: left; */
+    display: inline-block;
+}
+.little-bold{
+    font-weight: 600;
+}
+.cat{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    text-align: left;
+}
+.inline{
+    display: inline-block;
+}
+.footer-center{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #4b4b4b ;
+}
+.soc{
+    width: 200px;
+}
+.social-icons{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
 }

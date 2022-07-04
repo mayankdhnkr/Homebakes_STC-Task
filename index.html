@@ -12,13 +12,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="hero-section">
-            <div class="navbar">
-                <h2 class="logo">HomeBakes</h2>
-                <div class="navbar-links">
-                    <h2 class="nav-link">Recipes</h2>
-                    <h2 class="nav-link">Tricks</h2>
-                    <h2 class="nav-link">Shop</h2>
+        <div class="hero-section" id="shop">
+            <div class="fixed-navbar">
+                <div class="navbar">
+                    <h2 class="logo">HomeBakes</h2>
+                    <div class="navbar-links">
+                        <h2 class="nav-link"><a href="#recipe">Recipes</a></h2>
+                        <h2 class="nav-link"><a href="#tricks">Tricks</a></h2>
+                        <h2 class="nav-link"><a href="#shop">Shop</a></h2>
+    
+                    </div>
                 </div>
             </div>
             <div class="tt-text">
@@ -31,7 +34,7 @@
             <img src="Images/ellipse.svg" alt="elipse" class="left elipse">
             <img src="Images/ellipse.svg" alt="elipse" class="top elipse">
         </div>
-        <div class="feature-center">
+        <div class="feature-center" id="recipe">
             <div class="featured">
                 <h2 class="feature-text">Featured Recipes</h2>
                 <hr>    
@@ -61,10 +64,10 @@
                 <img src="Images/donut.svg" alt="donut" class="donut-img corner-image">
             </div>
         </div>
-
+        <img src="Images/ellipse.svg" alt="" class="left elipse middle-circle">
         <div class="sneaky-trick-center">
-            <div class="sneaky-trick">
-                <h2 class="feature-text">Sneaky Trick</h2>
+            <div class="sneaky-trick" id="tricks">
+                <h2 class="feature-text" id="tricks">Sneaky Trick</h2>
                 <hr>
                 <div class="tips">
                     <h2 class="tips-text-light">1. Add this with this to get this</h2>
@@ -74,11 +77,32 @@
                     <h2 class="tips-text-light">3. Always check your timers</h2>
                     <p class="tips-text">Just a simple tip always smile anad cook.</p>
                 </div>
-            <img src="Images/sneaky_tricks_illustration.svg" alt="" class="sneaky-img">
+                
+                <img src="Images/sneaky_tricks_illustration.svg" alt="" class="sneaky-img">
             </div>
         </div>
-        <div class="test">
-             
+        
+        <div class="footer-center">
+            <div class="footer">
+                <div class="cat">
+                    <h3 class="little-bold inline">About</h3>
+                    <p class="inline">Hello, i am John Mathews, owner of HomeBakes,NY. Contact me for business and bulk orders.</p>
+                </div>
+                <div class="cat">
+                    <h3 class="little-bold inline">Address</h3>
+                    <p class="inline">21 Bleecker Street, Brooklyn, New York</p>
+                </div>
+                <div class="cat">
+                    <h3 class="little-bold inline">Contact</h3>
+                    <p class="inline">johnmath@business.com</p>
+                    <p class="inline">+12 9087 9087</p>
+                </div>
+                <div class="cat">
+                    <h3 class="little-bold inline soc">Social</h3>
+                    <img src="Images/fb.svg" alt="" class="social-icons">
+                    <img src="Images/insta.svg" alt="" class="social-icons">
+                </div>
+            </div>
         </div>
     </div>    
 </body>
