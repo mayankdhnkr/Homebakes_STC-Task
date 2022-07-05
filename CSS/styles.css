@@ -23,18 +23,25 @@ p{
 /* HERO SECTION */
 .hero-section{
     background-color: #fff3f1;
-    height: 750px;
+    height: 665px;
     position: relative;
     margin: 0;
     padding: 0px;
+    top:-62px;
 }
 
 /* NAVBAR */
 .navbar{
-    position: relative;
+    /* position: relative; */
     padding: 30px 16px 30px 32px;
     /* width: 500px; */
+    background-color: #fff3f1;
+}
+.navbar-fixed{
+    position: fixed;
     z-index: 1;
+    width: 1570px;
+    top: 0px;
 }
 .nav-link{
     display: inline;
@@ -59,11 +66,15 @@ p{
 }
 .tt-text{
     margin-top: 150px;
+    position: relative;
+    top: 150px;
 }
 .byline{
     font-size: 1.5rem;
     margin-left: 185px;
     margin-top: 75px;
+    position: relative;
+    top:100px;
 }
 .lady-image{
     position: absolute;
@@ -81,7 +92,7 @@ p{
     transform: rotate(90deg);
     top: -135px;
     right: 520px;
-    z-index: 0;
+    z-index:2;
 }
 
 /* FEATURED SECTION */
